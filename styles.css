@@ -26,10 +26,32 @@ nav {
     z-index: -1000;*/
 }
 
+.nav-heading-time-date {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 nav h1 {
     margin: 0;
     font-size: 2rem;
     color: #fff;
+}
+
+.nav-time-date {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+#time-display {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#date-display {
+    font-size: 0.70rem;
+    color: #666;
 }
 
 nav ul {
@@ -321,6 +343,28 @@ h2 {
 
 .project-category.active {
     display: block;
+}
+
+/* Quote Section Styles */
+#quote {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.quote-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#quote-text {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#quote-author {
+    font-size: 1rem;
+    color: #666;
 }
 
 /*Contact Section Styles*/
