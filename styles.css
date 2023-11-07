@@ -92,7 +92,7 @@ h2 {
 
 .about-text {
     max-width: 600px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 
 /* Resume Section Styles */
@@ -187,7 +187,8 @@ h2 {
 }
 
 .skill {
-    width: calc(30% - 20px); /* Adjust the width as needed */
+    width: calc(30% - 20px);
+    /* Adjust the width as needed */
     margin: 10px;
     text-align: center;
     padding: 10px;
@@ -207,13 +208,17 @@ h2 {
     display: block;
 }
 
+.about-image img:hover,
 .skill:hover {
     transform: scale(1.1);
 }
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
-    .skills-navbar li {
+
+    nav ul li,
+    .skills-navbar li,
+    .projects-navbar li {
         margin-right: 10px;
         margin-bottom: 10px;
     }
@@ -221,7 +226,45 @@ h2 {
 
 /* Projects Section Styles */
 #projects {
-    margin-top: 40px;
+    margin-top: 60px;
+}
+
+.projects-navbar {
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.projects-navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-navbar li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    border: 1px solid #60adff;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.projects-navbar li.active {
+    color: #60adff;
+    border-bottom: 2px solid #60adff;
+}
+
+.projects-navbar li:hover {
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+
+.project-category {
+    display: none;
 }
 
 .project-cards {
@@ -276,69 +319,11 @@ h2 {
     background-color: #2980b9;
 }
 
-/* styles.css */
-
-/* ... (previous styles) ... */
-
-/* Projects Section Styles */
-/*#projects {
-    margin-top: 60px;
+.project-category.active {
+    display: block;
 }
 
-.slideshow-container {
-    max-width: 800px;
-    position: relative;
-    margin: auto;
-}
-
-.project-slide {
-    display: none;
-}
-
-.project-slide img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-.project-description {
-    text-align: center;
-    padding: 15px;
-}
-
-.prev,
-.next {
-    position: absolute;
-    top: 50%;
-    font-size: 24px;
-    cursor: pointer;
-    color: #3498db;
-    user-select: none;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}*/
-
-/* Fade Animation */
-/*.fade {
-    animation: fade 1s ease-in-out infinite;
-}
-
-@keyframes fade {
-    from {
-        opacity: .4;
-    }
-
-    to {
-        opacity: 1;
-    }
-}*/
-
-
+/*Contact Section Styles*/
 form {
     margin-top: 20px;
 }

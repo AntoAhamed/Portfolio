@@ -1,14 +1,3 @@
-/*$(document).ready(function(){
-    $('.project-carousel').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000, // Change slide every 5 seconds
-        prevArrow: '<button type="button" class="slick-prev">&#10094;</button>',
-        nextArrow: '<button type="button" class="slick-next">&#10095;</button>'
-    });
-});*/
-
 // Smooth scrolling for anchor links
 document.addEventListener('DOMContentLoaded', function () {
     //1
@@ -39,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const skillCategories = document.querySelectorAll('.skill-category');
 
     categories.forEach(category => {
-        category.addEventListener('click', function() {
+        category.addEventListener('click', function () {
             // Remove 'active' class from all categories
             categories.forEach(cat => cat.classList.remove('active'));
 
@@ -54,6 +43,29 @@ document.addEventListener('DOMContentLoaded', function () {
             // Show the selected skill category
             const selectedSkillCategory = document.querySelector(`.${this.dataset.category}`);
             selectedSkillCategory.classList.add('active');
+        });
+    });
+
+    //4
+    const categoriesP = document.querySelectorAll('.projects-navbar li');
+    const projectCategories = document.querySelectorAll('.project-category');
+
+    categoriesP.forEach(category => {
+        category.addEventListener('click', function () {
+            // Remove 'active' class from all categories
+            categoriesP.forEach(cat => cat.classList.remove('active'));
+
+            // Add 'active' class to the clicked category
+            this.classList.add('active');
+
+            // Hide all project categories
+            projectCategories.forEach(category => {
+                category.classList.remove('active');
+            });
+
+            // Show the selected project category
+            const selectedProjectCategory = document.querySelector(`.${this.dataset.category}`);
+            selectedProjectCategory.classList.add('active');
         });
     });
 });

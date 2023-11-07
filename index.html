@@ -16,11 +16,6 @@
 
     <!-- External CSS links (e.g., Bootstrap) can be added here -->
 
-    <!-- index.html -->
-
-    <!-- ... (previous code) ... -->
-
-    <!-- Add this link in the head section -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -93,77 +88,6 @@
         </div>
         <!-- Add more education items as needed -->
     </section>
-
-    <!-- Skills Section 
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <div class="skills-list">
-            <div>C</div>
-            <div>C++</div>
-            <div>Java</div>
-            <div>Python</div>
-            <div>HTML5</div>
-            <div>CSS3</div>
-            <div>Bootstrap</div>
-            <div>Tailwind CSS</div>
-            <div>JavaScript</div>
-            <div>ES6+</div>
-            <div>jQuery</div>
-            <div>React.js</div>
-            <div>Node.js</div>
-            <div>Express.js</div>
-            <div>MongoDB</div>
-            <div>React Router</div>
-            <div>NPM</div>
-            <div>JWT</div>
-            <div>Mongoose</div>
-            <div>JSON</div>
-            <div>Axios</div>
-            <div>RESTful APIs</div>
-            <div>CRUD</div>
-            <div>PHP</div>
-            <div>MySQL</div>
-            <div>Git</div>
-            <div>GitHub</div>
-            <div>WordPress</div>
-            <div>PUG</div>
-            <div>Postman</div>
-            <div>Context API</div>
-            <div>Redux</div>
-            <div>DSA</div>
-            <div>OOP</div>
-            <div>React Native</div>
-            <div>React Native Paper</div>
-            <div>Android Studio</div>
-            <div>Visual Studio</div>
-            <div>MongoDB Compass</div>
-        </div>
-    </section>-->
-
-    <!--skill-->
-    <!-- index.html -->
-
-    <!-- ... (previous code) ... -->
-
-    <!-- Skills Section -->
-    <!-- index.html -->
-
-    <!-- ... (previous code) ... -->
-
-    <!-- Skills Section -->
-    <!-- index.html -->
-
-    <!-- ... (previous code) ... -->
-
-    <!-- Skills Section -->
-    <!-- index.html -->
-
-    <!-- ... (previous code) ... -->
-
-    <!-- Skills Section -->
-    <!-- index.html -->
-
-    <!-- ... (previous code) ... -->
 
     <!-- Skills Section -->
     <section id="skills" class="container">
@@ -399,188 +323,253 @@
     <!-- Projects Section -->
     <section id="projects" class="container">
         <h2>Projects</h2>
-        <div class="project-cards">
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-                <p>A professional portfolio website showcasing my skills and projects.</p>
-                <p>Tech Used: HTML5 | CSS3 | JavaScript</p>
-                <a href="https://github.com/AntoAhamed/Portfolio" target="_blank">Source Code</a>
-                <a href="https://antoahamed.github.io/Portfolio/" target="_blank">View Project</a>
+
+        <!-- Project Categories Navbar -->
+        <nav class="projects-navbar">
+            <ul>
+                <li data-category="featured" class="active">Featured Projects</li>
+                <li data-category="all">All Projects</li>
+                <!-- Add more categories as needed -->
+            </ul>
+        </nav>
+
+        <!-- Projects Content -->
+        <div class="projects-container">
+            <!-- Featured Projects -->
+            <div class="project-category featured active">
+                <div class="project-cards">
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>A professional portfolio website showcasing my skills and projects.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript</p>
+                        <a href="https://github.com/AntoAhamed/Portfolio" target="_blank">Source Code</a>
+                        <a href="https://antoahamed.github.io/Portfolio/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Awesome Gallery 2023</h3>
+                        <p>This is a react application which is an image gallery where users can set an image as a
+                            featured
+                            image, sort images by drag and drop and also can delete multiple images at a time.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js</p>
+                        <a href="https://github.com/AntoAhamed/Awesome-Gallery" target="_blank">Source Code</a>
+                        <a href="https://awesome-gallery-2023.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>MyNoteBook App</h3>
+                        <p>This is a notebook web application with some awesome features. User can easily add, edit and
+                            remove
+                            their notes. It has some other features.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/MyNoteBook" target="_blank">Source Code</a>
+                        <a href="https://my-note-book-app.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>ToDo App v_2</h3>
+                        <p>This is a todo web application with some awesome features. User can add a task and after
+                            doing the
+                            task user can easily remove that task from the list. This is an updated version.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/ToDo_App" target="_blank">Source Code</a>
+                        <a href="https://todos-application01.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>NewsHeadlines v_2</h3>
+                        <p>This is a news portal with different categories. I have learned many concepts of react
+                            class-based
+                            components by doing this project.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js | newsAPI</p>
+                        <a href="https://github.com/AntoAhamed/NewsHeadlines_v2" target="_blank">Source Code</a>
+                        <a href="https://news-headlines-v2.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>TextUtils</h3>
+                        <p>This is a text converting website with some other features. I have learned many concepts of
+                            react
+                            function-based components by doing this project.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/TextUtils" target="_blank">Source Code</a>
+                        <a href="https://text-utilizers.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <!-- Add more project cards as needed -->
+                </div>
             </div>
-            <div class="project-card">
-                <h3>Awesome Gallery 2023</h3>
-                <p>This is a react application which is an image gallery where users can set an image as a featured
-                    image, sort images by drag and drop and also can delete multiple images at a time.</p>
-                <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js</p>
-                <a href="https://github.com/AntoAhamed/Awesome-Gallery" target="_blank">Source Code</a>
-                <a href="https://awesome-gallery-2023.netlify.app" target="_blank">View Project</a>
+
+            <!-- All Projects -->
+            <div class="project-category all">
+                <div class="project-cards">
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>A professional portfolio website showcasing my skills and projects.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript</p>
+                        <a href="https://github.com/AntoAhamed/Portfolio" target="_blank">Source Code</a>
+                        <a href="https://antoahamed.github.io/Portfolio/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Awesome Gallery 2023</h3>
+                        <p>This is a react application which is an image gallery where users can set an image as a
+                            featured
+                            image, sort images by drag and drop and also can delete multiple images at a time.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js</p>
+                        <a href="https://github.com/AntoAhamed/Awesome-Gallery" target="_blank">Source Code</a>
+                        <a href="https://awesome-gallery-2023.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Collaborative Task Management App</h3>
+                        <p>This is a MERN stack web application where users can create groups, invite people to join.
+                            They also
+                            can assign and manage tasks to the groups.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | Node.js | Express.js | MongoDB
+                            |
+                            RESTful APIs</p>
+                        <a href="https://github.com/AntoAhamed/Collaborative-Task-Management-App" target="_blank">Source
+                            Code</a>
+                        <a href="https://github.com/AntoAhamed/Collaborative-Task-Management-App" target="_blank">View
+                            Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Demo Coin</h3>
+                        <p>This is a demo coin based on blockchain technology.</p>
+                        <p>Tech Used: JavaScript | Node.js</p>
+                        <a href="https://github.com/AntoAhamed/Demo-Coin" target="_blank">Source Code</a>
+                        <a href="https://github.com/AntoAhamed/Demo-Coin" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Eazy Canteen</h3>
+                        <p>This is token based canteen management system for our university. It introduced so many
+                            modern
+                            features to solve read world problems.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | jQuery | PHP | MySQL</p>
+                        <a href="https://github.com/AntoAhamed/Canteen-Management" target="_blank">Source Code</a>
+                        <a href="https://github.com/AntoAhamed/Canteen-Management" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>InfoTech</h3>
+                        <p>This is a blog website. This website contains the information about the tech world.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap</p>
+                        <a href="https://github.com/AntoAhamed/infoTech" target="_blank">Source Code</a>
+                        <a href="https://antoahamed.github.io/infoTech/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Restaurant Website</h3>
+                        <p>Built a restaurant website to show all the things that the restaurant has.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap</p>
+                        <a href="https://github.com/AntoAhamed/Restaurant" target="_blank">Source Code</a>
+                        <a href="https://antoahamed.github.io/Restaurant/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Note Organizer</h3>
+                        <p>This is a MERN stack web application that allows users to manage categorize their notes
+                            efficiently.
+                            Users can add, edit and remove their notes. They also can add photos and link them to notes.
+                            This
+                            application has some more features to explore.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | Node.js | Express.js | MongoDB
+                            |
+                            RESTful APIs</p>
+                        <a href="https://github.com/AntoAhamed/Note-Organizer" target="_blank">Source Code</a>
+                        <a href="https://github.com/AntoAhamed/Note-Organizer" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Home Cost Management System</h3>
+                        <p>This is a MERN stack web application where users can add their monthly budget and their
+                            records
+                            ofexpenses. Our applicationwill show the amount of the money remains and also the total
+                            expense of
+                            the month.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | Node.js | Express.js | MongoDB
+                            |
+                            RESTful APIs</p>
+                        <a href="https://github.com/AntoAhamed/HouseCostManagementSystem" target="_blank">Source
+                            Code</a>
+                        <a href="https://github.com/AntoAhamed/HouseCostManagementSystem" target="_blank">View
+                            Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>MyNoteBook App</h3>
+                        <p>This is a notebook web application with some awesome features. User can easily add, edit and
+                            remove
+                            their notes. It has some other features.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/MyNoteBook" target="_blank">Source Code</a>
+                        <a href="https://my-note-book-app.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Todo App v_1</h3>
+                        <p>This is a todos react web application with some awesome features. User can add a task and
+                            after doing
+                            the task user can easily remove that task from the list.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/TodoApp" target="_blank">Source Code</a>
+                        <a href="https://antoahamed.github.io/TodoApp/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>ToDo App v_2</h3>
+                        <p>This is a todo web application with some awesome features. User can add a task and after
+                            doing the
+                            task user can easily remove that task from the list. This is an updated version.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/ToDo_App" target="_blank">Source Code</a>
+                        <a href="https://todos-application01.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>NewsHeadlines v_2</h3>
+                        <p>This is a news portal with different categories. I have learned many concepts of react
+                            class-based
+                            components by doing this project.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js | newsAPI</p>
+                        <a href="https://github.com/AntoAhamed/NewsHeadlines_v2" target="_blank">Source Code</a>
+                        <a href="https://news-headlines-v2.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>TextUtils</h3>
+                        <p>This is a text converting website with some other features. I have learned many concepts of
+                            react
+                            function-based components by doing this project.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/TextUtils" target="_blank">Source Code</a>
+                        <a href="https://text-utilizers.netlify.app" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Guessing Game</h3>
+                        <p>This is a guessing game. In this game you have to guess a number which was selected by the
+                            game
+                            before.</p>
+                        <p>Tech Used: HTML5 | CSS3 | JavaScript</p>
+                        <a href="https://github.com/AntoAhamed/Guessing_Game" target="_blank">Source Code</a>
+                        <a href="https://antoahamed.github.io/Guessing_Game/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Freelancing Website</h3>
+                        <p>Built a freelancing website (DeshiEditors) which connect content creators and editors like a
+                            third-party website.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | PHP | MySQL</p>
+                        <a href="https://github.com/AntoAhamed/DeshiEditors" target="_blank">Source Code</a>
+                        <a href="https://github.com/AntoAhamed/DeshiEditors" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Event Website</h3>
+                        <p>Built an event reg. website which contains information about the event and a registration
+                            form.</p>
+                        <p>Tech Used: HTML5 | CSS3 | React js</p>
+                        <a href="https://github.com/AntoAhamed/Event" target="_blank">Source Code</a>
+                        <a href="https://antoahamed.github.io/Event/" target="_blank">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>CV/ID Maker</h3>
+                        <p>This is a sample CV and ID card maker web application using some dummy user account. After
+                            signup
+                            and login user can see their CV and ID card.</p>
+                        <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
+                        <a href="https://github.com/AntoAhamed/CV_ID_Maker" target="_blank">Source Code</a>
+                        <a href="https://github.com/AntoAhamed/CV_ID_Maker" target="_blank">View Project</a>
+                    </div>
+                    <!-- Add more project cards as needed -->
+                </div>
             </div>
-            <div class="project-card">
-                <h3>Collaborative Task Management App</h3>
-                <p>This is a MERN stack web application where users can create groups, invite people to join. They also
-                    can assign and manage tasks to the groups.</p>
-                <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | Node.js | Express.js | MongoDB |
-                    RESTful APIs</p>
-                <a href="https://github.com/AntoAhamed/Collaborative-Task-Management-App" target="_blank">Source
-                    Code</a>
-                <a href="https://github.com/AntoAhamed/Collaborative-Task-Management-App" target="_blank">View
-                    Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Demo Coin</h3>
-                <p>This is a demo coin based on blockchain technology.</p>
-                <p>Tech Used: JavaScript | Node.js</p>
-                <a href="https://github.com/AntoAhamed/Demo-Coin" target="_blank">Source Code</a>
-                <a href="https://github.com/AntoAhamed/Demo-Coin" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Eazy Canteen</h3>
-                <p>This is token based canteen management system for our university. It introduced so many modern
-                    features to solve read world problems.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | jQuery | PHP | MySQL</p>
-                <a href="https://github.com/AntoAhamed/Canteen-Management" target="_blank">Source Code</a>
-                <a href="https://github.com/AntoAhamed/Canteen-Management" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>InfoTech</h3>
-                <p>This is a blog website. This website contains the information about the tech world.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap</p>
-                <a href="https://github.com/AntoAhamed/infoTech" target="_blank">Source Code</a>
-                <a href="https://antoahamed.github.io/infoTech/" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Restaurant Website</h3>
-                <p>Built a restaurant website to show all the things that the restaurant has.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap</p>
-                <a href="https://github.com/AntoAhamed/Restaurant" target="_blank">Source Code</a>
-                <a href="https://antoahamed.github.io/Restaurant/" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Note Organizer</h3>
-                <p>This is a MERN stack web application that allows users to manage categorize their notes efficiently.
-                    Users can add, edit and remove their notes. They also can add photos and link them to notes. This
-                    application has some more features to explore.</p>
-                <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | Node.js | Express.js | MongoDB |
-                    RESTful APIs</p>
-                <a href="https://github.com/AntoAhamed/Note-Organizer" target="_blank">Source Code</a>
-                <a href="https://github.com/AntoAhamed/Note-Organizer" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Home Cost Management System</h3>
-                <p>This is a MERN stack web application where users can add their monthly budget and their records
-                    ofexpenses. Our applicationwill show the amount of the money remains and also the total expense of
-                    the month.</p>
-                <p>Tech Used: HTML5 | CSS3 | JavaScript | Bootstrap | React.js | Node.js | Express.js | MongoDB |
-                    RESTful APIs</p>
-                <a href="https://github.com/AntoAhamed/HouseCostManagementSystem" target="_blank">Source Code</a>
-                <a href="https://github.com/AntoAhamed/HouseCostManagementSystem" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>MyNoteBook App</h3>
-                <p>This is a notebook web application with some awesome features. User can easily add, edit and remove
-                    their notes. It has some other features.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
-                <a href="https://github.com/AntoAhamed/MyNoteBook" target="_blank">Source Code</a>
-                <a href="https://my-note-book-app.netlify.app" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Todo App v_1</h3>
-                <p>This is a todos react web application with some awesome features. User can add a task and after doing
-                    the task user can easily remove that task from the list.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
-                <a href="https://github.com/AntoAhamed/TodoApp" target="_blank">Source Code</a>
-                <a href="https://antoahamed.github.io/TodoApp/" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>ToDo App v_2</h3>
-                <p>This is a todo web application with some awesome features. User can add a task and after doing the
-                    task user can easily remove that task from the list. This is an updated version.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
-                <a href="https://github.com/AntoAhamed/ToDo_App" target="_blank">Source Code</a>
-                <a href="https://todos-application01.netlify.app" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>NewsHeadlines v_2</h3>
-                <p>This is a news portal with different categories. I have learned many concepts of react class-based
-                    components by doing this project.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js | newsAPI</p>
-                <a href="https://github.com/AntoAhamed/NewsHeadlines_v2" target="_blank">Source Code</a>
-                <a href="https://news-headlines-v2.netlify.app" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>TextUtils</h3>
-                <p>This is a text converting website with some other features. I have learned many concepts of react
-                    function-based components by doing this project.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
-                <a href="https://github.com/AntoAhamed/TextUtils" target="_blank">Source Code</a>
-                <a href="https://text-utilizers.netlify.app" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Guessing Game</h3>
-                <p>This is a guessing game. In this game you have to guess a number which was selected by the game
-                    before.</p>
-                <p>Tech Used: HTML5 | CSS3 | JavaScript</p>
-                <a href="https://github.com/AntoAhamed/Guessing_Game" target="_blank">Source Code</a>
-                <a href="https://antoahamed.github.io/Guessing_Game/" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Freelancing Website</h3>
-                <p>Built a freelancing website (DeshiEditors) which connect content creators and editors like a
-                    third-party website.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | PHP | MySQL</p>
-                <a href="https://github.com/AntoAhamed/DeshiEditors" target="_blank">Source Code</a>
-                <a href="https://github.com/AntoAhamed/DeshiEditors" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>Event Website</h3>
-                <p>Built an event reg. website which contains information about the event and a registration form.</p>
-                <p>Tech Used: HTML5 | CSS3 | React js</p>
-                <a href="https://github.com/AntoAhamed/Event" target="_blank">Source Code</a>
-                <a href="https://antoahamed.github.io/Event/" target="_blank">View Project</a>
-            </div>
-            <div class="project-card">
-                <h3>CV/ID Maker</h3>
-                <p>This is a sample CV and ID card maker web application using some dummy user account. After signup
-                    and login user can see their CV and ID card.</p>
-                <p>Tech Used: HTML5 | CSS3 | Bootstrap | JavaScript | React js</p>
-                <a href="https://github.com/AntoAhamed/CV_ID_Maker" target="_blank">Source Code</a>
-                <a href="https://github.com/AntoAhamed/CV_ID_Maker" target="_blank">View Project</a>
-            </div>
-            <!-- Add more project cards as needed -->
+
+            <!-- Add more project categories as needed -->
         </div>
     </section>
-
-    <!-- index.html -->
-
-    <!-- ... (previous code) ... -->
-
-    <!-- Projects Section -->
-    <!--<section id="projects" class="container">
-        <h2>Projects</h2>-->
-
-        <!-- Project Carousel -->
-        <!--<div class="project-carousel">-->
-            <!-- Project 1 -->
-            <!--<div class="project-slide">
-                <img src="Assets/cover.jpeg" alt="Project 1">
-                <div class="project-description">
-                    <h3>Project 1</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-            </div>-->
-
-            <!-- Project 2 -->
-            <!--<div class="project-slide">
-                <img src="Assets/cover.jpeg" alt="Project 2">
-                <div class="project-description">
-                    <h3>Project 2</h3>
-                    <p>Description of Project 2.</p>
-                </div>
-            </div>-->
-
-            <!-- Add more project slides as needed -->
-        <!--</div>
-    </section>-->
 
     <!-- Contact Section -->
     <section id="contact" class="container">
@@ -642,7 +631,6 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
     <script src="index.js"></script>
 </body>
 
