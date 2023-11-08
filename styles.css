@@ -15,15 +15,18 @@ body {
     padding: 20px;
 }
 
+/*.nav-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}*/
+
 nav {
     background-color: #60adff;
     /*background-color: #2c3e50;*/
     color: #fff;
     padding: 10px 0;
-    /*position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: -1000;*/
 }
 
 .nav-heading-time-date {
@@ -81,6 +84,7 @@ section {
 #cover {
     height: 220px;
     width: 100%;
+    /*margin-top: 11%;*/
 }
 
 h2 {
@@ -94,6 +98,11 @@ h2 {
 }
 
 /* About Me Section Styles */
+.about-bg {
+    background-color: white;
+    padding-bottom: 45px;
+}
+
 #about {
     margin-top: 40px;
 }
@@ -161,7 +170,7 @@ h2 {
 
 /* Skills Section Styles */
 #skills {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .skills-navbar {
@@ -248,7 +257,7 @@ h2 {
 
 /* Projects Section Styles */
 #projects {
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .projects-navbar {
@@ -307,7 +316,8 @@ h2 {
     transition: transform 0.3s ease-in-out;
 }
 
-.project-card:hover {
+.project-card:hover,
+#quote:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -348,8 +358,12 @@ h2 {
 /* Quote Section Styles */
 #quote {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .quote-container {
