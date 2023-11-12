@@ -60,6 +60,7 @@ nav h1 {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -123,7 +124,7 @@ h2 {
 
 .about-text {
     max-width: 600px;
-    margin-left: 120px;
+    margin-left: calc(44% - 120px);
 }
 
 /* Resume Section Styles */
@@ -247,7 +248,6 @@ h2 {
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
 
-    nav ul li,
     .skills-navbar li,
     .projects-navbar li {
         margin-right: 10px;
@@ -305,7 +305,7 @@ h2 {
 }
 
 .project-card {
-    width: calc(44% - 20px);
+    width: calc(44% - 40px);
     /* Adjust the width as needed */
     margin-bottom: 40px;
     padding: 20px;
@@ -454,6 +454,7 @@ button:hover {
 .contact-info {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 20px;
 }
