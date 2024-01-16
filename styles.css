@@ -355,10 +355,37 @@ h2 {
     display: block;
 }
 
+/* Problem Solving Profiles Section Styles */
+#problem-solving {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.profile-links {
+    margin-top: 20px;
+}
+
+.profile-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #60adff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.profile-links a:hover {
+    background-color: #2980b9;
+}
+
 /* Quote Section Styles */
 #quote {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-bottom: 50px;
     border-radius: 20px;
     background-color: white;
