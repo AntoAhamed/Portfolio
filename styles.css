@@ -245,16 +245,6 @@ h2 {
     transform: scale(1.1);
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-
-    .skills-navbar li,
-    .projects-navbar li {
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-}
-
 /* Projects Section Styles */
 #projects {
     margin-top: 40px;
@@ -531,4 +521,34 @@ footer {
 
 #scrollToTopBtn:hover {
     background-color: #2980b9;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+
+    .about-image img {
+        width: 120px;
+        /* Adjust the width as needed */
+        margin-right: 10px;
+    }
+
+    .skills-navbar li,
+    .projects-navbar li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .project-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-card p {
+        font-size: 0.8rem;
+    }
+
+    .project-card a {
+        padding: 10px 18px;
+    }
+
+
 }
